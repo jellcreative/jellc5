@@ -21,7 +21,7 @@
 <?php Loader::element('header_required'); ?>
 
 
-<script src="<?php echo $this->getThemePath() ?>/js/jquery-1.9.1.min.js"></script>
+<!--<script src="<?php echo $this->getThemePath() ?>/js/jquery-1.9.1.min.js"></script>-->
 <script src="<?php echo $this->getThemePath() ?>/js/main.js"></script>
 <script src="<?php echo $this->getThemePath() ?>/js/ios-orientation-change-fix.js"></script>
 <link href="<?php echo $this->getThemePath() ?>/css/main.css" rel="stylesheet" media="all"/>
