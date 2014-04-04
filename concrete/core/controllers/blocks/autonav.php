@@ -360,6 +360,23 @@
 						
 						$displayPage = $this->displayPage($tc);
 						
+						/////JELL permissions check
+						$permissions = new Permissions($tc);		
+						$displayPage= false;
+								
+						
+						if( $tc->getAttribute('is_active')==1 && $tc->getAttribute('exclude_nav')!=1 ){
+							$displayPage= true;
+						}
+						
+						date_default_timezone_set('America/Chicago');
+						
+						if( strtotime($tc->getCollectionDatePublic())>mktime()  ):						
+							$displayPage= false;
+						endif;
+
+						/////END JELL permissions check
+						
 						if ($displayPage) {
 							$niRow = array();
 							$niRow['cvName'] = $tc->getCollectionName();
