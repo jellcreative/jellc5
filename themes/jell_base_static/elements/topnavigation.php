@@ -4,14 +4,16 @@
 
 
         <!-- <nav> -->
-        <?
-        $top = BlockType::getByHandle('autonav');       
-        $top->controller->orderBy = 'display_asc';                    
-        $top->controller->displayPages = 'top';
-        $top->controller->displaySubPages = 'all';     
-        $top->controller->displaySubPageLevels = 'custom';
-        $top->controller->displaySubPageLevelsNum = '2';     
-        $top->render('templates/main_nav');
+        <?php
+            /*
+            $top = BlockType::getByHandle('autonav');       
+            $top->controller->orderBy = 'display_asc';                    
+            $top->controller->displayPages = 'top';
+            $top->controller->displaySubPages = 'all';     
+            $top->controller->displaySubPageLevels = 'custom';
+            $top->controller->displaySubPageLevelsNum = '2';     
+            $top->render('templates/main_nav');
+            */
         ?>
         <!-- end <nav> -->
     
