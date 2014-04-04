@@ -272,7 +272,7 @@ margin:auto;
 
 #content_inner {
     margin-bottom: 58px;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 #content_inner .width_holder {
@@ -295,7 +295,7 @@ margin:auto;
 }
 
 #main_wrapper {
-    overflow: hidden;
+    /*overflow: hidden;*/
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
 }
 #main_body {
