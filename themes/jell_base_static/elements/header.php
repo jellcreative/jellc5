@@ -1,6 +1,6 @@
 <?php
 
-	$jtv = Loader::helper('JellTrackVisitor');
+	$jtv = Loader::helper('jell_track_visitor');
 	$jtv->trackVisitor();
 
 ?><!doctype html>
