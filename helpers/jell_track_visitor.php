@@ -1,5 +1,5 @@
 <?php
-if (!class_exists('JellTrackVisitorHelper')){
+//if (!class_exists('JellTrackVisitorHelper')){
 class JellTrackVisitorHelper {
 
 
@@ -148,4 +148,4 @@ class JellTrackVisitorHelper {
 
 
 }///end class
-}
+//}
