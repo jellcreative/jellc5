@@ -272,14 +272,14 @@ margin:auto;
 }
 
 #content_inner {
-margin-bottom: 58px;
-overflow: hidden;
+    margin-bottom: 58px;
+    overflow: hidden;
 }
 
 #content_inner .width_holder {
-width: 920px;
-margin: auto;
-position: relative;
+    width: 920px;
+    margin: auto;
+    position: relative;
 }
 
 .width_holder {
@@ -288,6 +288,17 @@ position: relative;
     position: relative;
 }
 
+#main {
+    float: left;
+    display: inline;
+    width: 600px;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+}
+
+#main_wrapper {
+    overflow: hidden;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+}
 #main_body {
     float:left;
     width: 100%;
@@ -295,6 +306,7 @@ position: relative;
 
 aside {
     float: right;
+    width: 288px;
     display: inline;
 }
 
