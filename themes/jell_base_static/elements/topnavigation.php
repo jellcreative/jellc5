@@ -1,6 +1,6 @@
 <header>
      <div class="width_holder" >
-        <img id="printlogo" src="<?=$this->getThemePath()?>/images/jell_logo.png" /> <a id="logo" title="Home" href="/"><img src="<?=$this->getThemePath()?>/images/jell_logo.svg" alt="" /></a>
+        <img id="printlogo" src="<?=$this->getThemePath()?>/images/jell_logo.gif" /> <a id="logo" title="Home" href="/"><img src="<?=$this->getThemePath()?>/images/jell_logo.svg" alt="" /></a>
 
 
         <!-- <nav> -->
