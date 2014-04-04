@@ -1,2 +1,2 @@
-Jell Base Theme
+Responsive Jell Base Theme
 Base theme for Jell C5.
