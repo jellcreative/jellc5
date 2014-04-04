@@ -1,0 +1,196 @@
+/* 
+DESIGN AND CODE: JELL CREATIVE (www.jellcreative.com) 
+*/
+
+/*
+Prepare
+*/
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+/*
+HTML5 display definitions
+*/
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
+    display: block;
+}
+
+audio,canvas,video {
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+/* 
+Start: Globals 
+*/
+
+* {-webkit-text-size-adjust: none}
+
+body,html,p,div,h1,h2,h3,h4,h5,h6,ul,li,ol,span,textarea,form,img,#main input,#main button,a {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a img {
+    border: 0;
+}
+
+img {
+    font-size: 11px;
+    color: #666;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+input[type=text],input[type=email],input[type=tel],textarea {
+    outline: none;
+}
+
+textarea, button, input[type=submit]{
+    -webkit-appearance: none;   
+}
+
+form input[type="radio"], form input[type="checkbox"] {
+    width: auto;
+}
+    
+form input[type=text],
+form input[type=email],
+form input[type=tel],
+form input[type=password],
+form textarea{
+
+}
+
+form label {
+    font-style: normal;
+    }
+
+input[type=submit] {
+    border:none;
+    cursor:pointer;
+}       
+
+/* 
+End: Globals 
+*/
+
+/***************** { Start: Main Typography overrides} *****************/
+
+h1,h2 {
+}
+
+h1 em,h2 em {
+    font-style: italic;
+}
+
+h1 {
+
+}
+    
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+h3,p {
+
+}
+
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+section p a:link,  section p a:visited{
+
+}
+
+section p a:hover {
+
+}
+
+blockquote {
+}
+
+sub {
+    position: relative;
+    vertical-align: baseline;
+    top: 2px;
+}
+
+sup {
+    position: relative;
+    vertical-align: baseline;
+    top: -4px;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-style: normal;
+}
+
+strong em,em strong {
+    font-style: italic;
+}
+
+/***************** { End: Main Typography overrides } *****************/
