@@ -3,7 +3,7 @@ DESIGN AND CODE: JELL CREATIVE (www.jellcreative.com)
 */
 
 /*
-Prepare
+Start: Prepare
 */
 
 html,body,div,span,applet,object,iframe,
@@ -33,7 +33,11 @@ audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
 /*
-HTML5 display definitions
+End: Prepare
+*/
+
+/*
+Start: HTML5 display definitions
 */
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
     display: block;
@@ -52,6 +56,10 @@ audio:not([controls]) {
 [hidden] {
     display: none;
 }
+
+/*
+End: HTML5 display definitions
+*/
 
 /* 
 Start: Globals 
@@ -119,7 +127,9 @@ input[type=submit] {
 End: Globals 
 */
 
-/***************** { Start: Main Typography overrides} *****************/
+/*
+Start: Main Typography overrides
+*/
 
 h1,h2 {
 }
@@ -193,4 +203,89 @@ strong em,em strong {
     font-style: italic;
 }
 
-/***************** { End: Main Typography overrides } *****************/
+/*
+End: Main Typography overrides
+*/
+
+/*
+Start: General Layout
+*/
+
+body{
+    min-height:100%;
+    position:relative;
+}
+
+body.edit {
+    position: inherit;
+}
+
+body.home {
+    background-color:#000;
+}
+
+#inner_wrap {
+    margin: auto;
+}
+
+header, header .width_holder {
+position: relative;
+z-index: 10;
+height: 108px;
+}
+
+header{
+background-color: #fff;
+min-width: 920px;
+}
+
+header .width_holder, footer .width_holder {
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+width: 920px;
+margin:auto;
+}
+
+#logo {
+    top:22px;
+    left:32px;
+    position:absolute;
+    width:160px;
+    height:79px;
+}
+
+
+#logo.nosvg img {
+    display:none;
+}
+
+#logo.nosvg {
+    background-image:url(images/jell_logo.png);
+    background-repeat:no-repeat;
+}
+
+#main_body {
+    float:left;
+    width: 100%;
+}
+
+footer {
+
+}
+
+footer .width_holder  {
+
+}
+
+
+footer .width_holder p {
+
+}
+
+/*
+End: General Layout
+*/
