@@ -271,6 +271,11 @@ margin:auto;
     background-repeat:no-repeat;
 }
 
+#content_inner {
+margin-bottom: 58px;
+overflow: hidden;
+}
+
 #content_inner .width_holder {
 width: 920px;
 margin: auto;
