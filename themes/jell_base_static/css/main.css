@@ -257,6 +257,9 @@ margin:auto;
     width:160px;
     height:79px;
 }
+#printlogo{
+    display:none;
+}
 
 
 #logo.nosvg img {
