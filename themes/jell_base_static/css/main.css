@@ -271,9 +271,26 @@ margin:auto;
     background-repeat:no-repeat;
 }
 
+#content_inner .width_holder {
+width: 920px;
+margin: auto;
+position: relative;
+}
+
+.width_holder {
+    width: 920px;
+    margin: auto;
+    position: relative;
+}
+
 #main_body {
     float:left;
     width: 100%;
+}
+
+aside {
+    float: right;
+    display: inline;
 }
 
 footer {
