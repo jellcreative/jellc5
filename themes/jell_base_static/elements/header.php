@@ -15,8 +15,8 @@
 
 
 <!--favicon-->
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo $this->getThemePath() ?>/images/favicon.ico" />
+<link rel="icon" href="<?php echo $this->getThemePath() ?>/images/favicon.ico" type="image/x-icon">
 
 <?php Loader::element('header_required'); ?>
 
