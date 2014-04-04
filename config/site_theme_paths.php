@@ -20,3 +20,8 @@ $v->setThemeByPath('/page_forbidden', "yourtheme");
 $v->setThemeByPath('/register', "yourtheme");
 
 */
+
+/*
+//set a custom 404 page
+$v->setThemeByPath('/page_not_found', "yourtheme");
+*/
